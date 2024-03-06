@@ -2,7 +2,7 @@
 name = "const_str_to_pubkey"
 description = "A crate that helps you derive constant Solana Pubkey with constant string"
 authors = ["Yan"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "WTFPL"
 repository = "https://github.com/macaujack/const_str_to_pubkey"
