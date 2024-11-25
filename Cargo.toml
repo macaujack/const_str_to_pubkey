@@ -14,4 +14,4 @@ description = "A crate that helps you derive constant Solana Pubkey with constan
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-solana-pubkey = "2.1.2"
+solana-program = "2"

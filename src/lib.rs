@@ -36,7 +36,7 @@
 //! ADMIN_PUBKEY = "AdminPubkey11111111111111111111111111111111"
 //! ```
 
-use solana_pubkey::Pubkey;
+use solana_program::pubkey::Pubkey;
 
 /// Returns an array that represents a map from Base58 encoding character to number.
 ///
