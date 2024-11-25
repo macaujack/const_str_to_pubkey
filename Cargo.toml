@@ -1,17 +1,17 @@
 [package]
 name = "const_str_to_pubkey"
-description = "A crate that helps you derive constant Solana Pubkey with constant string"
-authors = ["Yan"]
 version = "0.1.1"
-edition = "2021"
-license = "WTFPL"
-repository = "https://github.com/macaujack/const_str_to_pubkey"
+authors = ["Yan"]
 documentation = "https://docs.rs/const_str_to_pubkey"
-readme = "README.md"
+edition = "2021"
 keywords = ["Solana", "Anchor"]
+license = "WTFPL"
+readme = "README.md"
+repository = "https://github.com/macaujack/const_str_to_pubkey"
 resolver = "2"
+description = "A crate that helps you derive constant Solana Pubkey with constant string"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-solana-program = "1.18.4"
+solana-pubkey = "2.1.2"

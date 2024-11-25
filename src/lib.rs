@@ -36,7 +36,7 @@
 //! ADMIN_PUBKEY = "AdminPubkey11111111111111111111111111111111"
 //! ```
 
-use solana_program::pubkey::Pubkey;
+use solana_pubkey::Pubkey;
 
 /// Returns an array that represents a map from Base58 encoding character to number.
 ///
@@ -153,7 +153,7 @@ mod tests {
     use std::str::FromStr;
 
     const MAP: [u8; 128] = get_base58ch_to_number_map();
-    const PUBKEY_STR: &'static str = "CBNbUAykYgopeby9QC9x9pvpvoRrbmf5FrPLFZ8rGB4Y";
+    const PUBKEY_STR: &str = "CBNbUAykYgopeby9QC9x9pvpvoRrbmf5FrPLFZ8rGB4Y";
     const PUBKEY: Pubkey = str_to_pubkey(PUBKEY_STR);
 
     #[test]
